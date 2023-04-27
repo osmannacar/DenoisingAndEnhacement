@@ -1,0 +1,21 @@
+void ContrastStrechingTask::process(QImage &pImage)
+{
+
+    auto diff = 65535.0f / (float)(mMaxPixelValue - mMinPixelValue);
+//    qDebug()<< mMaxPixelValue << "," << mMinPixelValue;
+
+    for (auto row = 0; row < pImage.height(); ++row){
+        auto data = pImage.scanLine(row);
+
+        for (int col = 0; col < pImage.width(); ++col) {
+
+            unsigned short value = 0;
+            memcpy(&value ,(data + 2 * col), 2);
+            value = (value - mMinPixelValue) * diff;
+
+            memcpy((data + 2 * col),&value, 2);
+
+        }
+    }
+    emit processed(pImage);
+}
