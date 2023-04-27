@@ -1,19 +1,19 @@
 # DenoisingAndEnhacement
-This project contains cpu and gpu(cuda) code:
-Cpu side:
-  => Automatic brightness and constrast
-  => Bad Pixel Replacement
-  => Defog on Image
-  => Haze Remove on Image
-  => Nuc(Non Uniform Correction)
-  => Contrast Stretching
-Cuda side:
-  => Bad Pixel Correction
-  => Dehaze
-      -> Box Filter
-      -> Dark Channel
-      -> Minimum Filter
-      -> Transpose
-  => Radix Sort
-  => Contrast Stretching
+This project contains cpu and gpu(cuda) code: <br />
+Cpu side: <br />
+  => Automatic brightness and constrast <br />
+  => Bad Pixel Replacement <br />
+  => Defog on Image <br />
+  => Haze Remove on Image <br />
+  => Nuc(Non Uniform Correction) <br />
+  => Contrast Stretching <br />
+Cuda side: <br />
+  => Bad Pixel Correction <br />
+  => Dehaze <br />
+      -> Box Filter <br />
+      -> Dark Channel <br />
+      -> Minimum Filter <br />
+      -> Transpose <br />
+  => Radix Sort <br />
+  => Contrast Stretching <br />
   
