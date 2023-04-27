@@ -10,10 +10,10 @@ Cpu side: <br />
 Cuda side: <br />
   => Bad Pixel Correction <br />
   => Dehaze <br />
-     &ensp -> Box Filter <br />
-     &ensp -> Dark Channel <br />
-     &ensp -> Minimum Filter <br />
-     &ensp -> Transpose <br />
+     &ensp; -> Box Filter <br />
+     &ensp; -> Dark Channel <br />
+     &ensp; -> Minimum Filter <br />
+     &ensp; -> Transpose <br />
   => Radix Sort <br />
   => Contrast Stretching <br />
   
